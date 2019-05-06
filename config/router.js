@@ -13,6 +13,16 @@ const router = new VueRouter({
     {
       path: '/profile',
       component: ProfileView,
+    },
+
+    {
+      path: '/rent',
+      component: RentView,
+    },
+
+    {
+      path: '/book/detail/:id',
+      component: BookDetail
     }
   ]
 })

@@ -9,7 +9,6 @@ const ProfileView = {
       <nav-bar></nav-bar>
       <info-user></info-user>
       <user-list title="Favorites" collection="favorites"></user-list>
-      <user-list title="Rentados" collection="rents"></user-list>
     </div>
   `,
 

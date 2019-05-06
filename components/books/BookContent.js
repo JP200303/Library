@@ -13,9 +13,9 @@ const BookContent = {
             </h5>
         </div>
             <div class="card-footer mx-auto" style="width: 200px;">
-             <a href="#" class="btn btn-outline-light btn-lg">
+            <router-link :to="'/book/detail/' + book.id" class="btn btn-outline-light btn-lg">
                Detail
-             </a>
+            </router-link>
              <br>
              <br>
              <button class="btn btn-outline-danger" @click="addFav">

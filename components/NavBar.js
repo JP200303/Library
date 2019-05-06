@@ -17,6 +17,9 @@ const NavBar = {
             <router-link class="nav-link" to="/">
               Books
             </router-link>
+            <router-link class="nav-link" to="/rent">
+              Tus Libros
+            </router-link>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
